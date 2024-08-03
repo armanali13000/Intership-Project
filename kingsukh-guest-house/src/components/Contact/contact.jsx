@@ -1,14 +1,83 @@
 import React from 'react';
 import './contact.css'
 
+//importing icon
+import { FaMapMarkedAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaPhoneVolume } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+
+
+
 const Contact = () => {
     return (
         
         <section className='contact container section'>
             <div className='secContainer'>
-                <h2 className='title'>
-                    Let's get in touch
-                </h2>
+                <div className='title'>
+                    <h2 className='title'>
+                        Let's get in touch
+                    </h2>
+                    <p>
+                    Discover a world of comfort, luxury, and adventure as you explore our curated selection of hotels
+                    </p>
+                </div>
+
+
+                <div className='footerLogo'>
+                    <a href='#' className='logo flex'>
+                        <h1 className='flex'>
+                        <FaMapMarkedAlt className='icon'/>
+                        Beside Barshal Water Tank,
+                        Manpur, Barhanti,
+                        West Bengal 723156 
+                        </h1>
+                    </a>
+
+                    <a href='#' className='logo flex'>
+                        <h1 className='flex'>
+                        <MdEmail className='icon'/>kkghosh0099@gmail.com 
+                        </h1>
+                    </a>
+
+                    <a href='#' className='logo flex'>
+                        <h1 className='flex'>
+                        <FaPhoneVolume className='icon'/>+91 9007062180
+                        </h1>
+                    </a>
+                </div>
+            
+
+                <div className='contactLinks'>
+                    {/* <div className='social item'>
+                    <FaMapMarkedAlt className='icon'/>
+                        Beside Barshal Water Tank,
+                        Manpur, Barhanti,
+                        West Bengal 723156
+                    </div>
+                    
+                    <div className='social item'>
+                    <MdEmail className='icon'/>
+                        kkghosh0099@gmail.com
+                    </div>
+                    
+                    <div className='social item'>
+                    <FaPhoneVolume className='icon'/> 
+                    +91 9007062180
+                    </div> */}
+
+                   
+
+                </div>
+
+                <div className='socials flex'>
+                    Connect
+                    <FaFacebookF className='icon'/>
+                    <FaTwitter className='icon'/>
+                    <FaInstagram className='icon'/>
+                </div>
             </div>
         </section>
     

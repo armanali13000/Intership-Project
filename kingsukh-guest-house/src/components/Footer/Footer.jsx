@@ -82,9 +82,7 @@ const Footer = () => {
         </div>
 
         <div data-aos='fade-up' data-aos-duration='5000' className='footerLinks'>
-          <span className='linkTitle'>
-            Contact Us
-          </span>
+          <span className='linkTitle'>Contact Us</span>
           <span className='phone'>+913487569851</span>
           <span className='email'>kingkush@gmail.com</span>
         </div>

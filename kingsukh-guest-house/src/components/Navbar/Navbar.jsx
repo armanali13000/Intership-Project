@@ -18,7 +18,7 @@ const Navbar = () => {
 
 
 
-  //for add background color to the header
+  //for add background color to the navbar
   const [transparent, setTransparent] = useState('header')
   const addBg = ()=>{
     if(window.scrollY >= 10)
