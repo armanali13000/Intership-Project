@@ -6,6 +6,7 @@ import Popular from './components/Popular/Popular'
 import Offer from './components/Offer/Offer'
 import About from './components/About/About'
 import Blog from './components/Blog/Blog'
+import Contact from './components/Contact/contact'
 import Footer from './components/Footer/Footer'
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Offer/>
       <About/>
       <Blog/>
+      <Contact />
       <Footer/>
     </>
   )
