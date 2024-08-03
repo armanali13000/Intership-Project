@@ -50,33 +50,40 @@ const Contact = () => {
                 </div>
             
 
-                <div className='contactLinks'>
-                    {/* <div className='social item'>
-                    <FaMapMarkedAlt className='icon'/>
-                        Beside Barshal Water Tank,
-                        Manpur, Barhanti,
-                        West Bengal 723156
-                    </div>
-                    
-                    <div className='social item'>
-                    <MdEmail className='icon'/>
-                        kkghosh0099@gmail.com
-                    </div>
-                    
-                    <div className='social item'>
-                    <FaPhoneVolume className='icon'/> 
-                    +91 9007062180
-                    </div> */}
-
-                   
-
-                </div>
-
+               
                 <div className='socials flex'>
                     Connect
                     <FaFacebookF className='icon'/>
                     <FaTwitter className='icon'/>
                     <FaInstagram className='icon'/>
+                </div>
+
+
+                <div class="contact-form">
+                    <form action="#" autocomplete="off">
+                        <h3 class="title">Contact us</h3>
+                        <div class="input-container">
+                        <input type="text" name="name" class="input" />
+                        <label for="">Username</label>
+                        <span>Username</span>
+                        </div>
+                        <div class="input-container">
+                        <input type="email" name="email" class="input" />
+                        <label for="">Email</label>
+                        <span>Email</span>
+                        </div>
+                        <div class="input-container">
+                        <input type="tel" name="phone" class="input" />
+                        <label for="">Phone</label>
+                        <span>Phone</span>
+                        </div>
+                        <div class="input-container textarea">
+                        <textarea name="message" class="input"></textarea>
+                        <label for="">Message</label>
+                        <span>Message</span>
+                        </div>
+                        <input type="submit" value="Send" class="btn" />
+                    </form>
                 </div>
             </div>
         </section>
