@@ -14,76 +14,91 @@ import { FaInstagram } from "react-icons/fa";
 const Contact = () => {
     return (
         
-        <section className='contact container section'>
-            <div className='secContainer'>
-                <div className='title'>
-                    <h2 className='title'>
-                        Let's get in touch
-                    </h2>
-                    <p>
-                    Discover a world of comfort, luxury, and adventure as you explore our curated selection of hotels
-                    </p>
-                </div>
+        <section className='contactContainer section'>
+            <div className='container'>
+                <div className='form'>
+                    <div className='contact-form'>
+                        <h3 className='title'>
+                            Let's get in touch
+                        </h3>
+                        <p className='text'>
+                        Discover a world of comfort, luxury, and adventure as you explore our curated selection of hotels
+                        </p>
+                    
 
 
-                <div className='footerLogo'>
-                    <a href='#' className='logo flex'>
-                        <h1 className='flex'>
-                        <FaMapMarkedAlt className='icon'/>
-                        Beside Barshal Water Tank,
-                        Manpur, Barhanti,
-                        West Bengal 723156 
-                        </h1>
-                    </a>
+                        <div className='info'>
+                            <div className='information'>
+                                <FaMapMarkedAlt className='icon'/>
+                                <p>
+                                    Beside Barshal Water Tank,
+                                    Manpur, Barhanti,
+                                    West Bengal 723156 
+                                </p>
+                            </div>
 
-                    <a href='#' className='logo flex'>
-                        <h1 className='flex'>
-                        <MdEmail className='icon'/>kkghosh0099@gmail.com 
-                        </h1>
-                    </a>
+                            <div className='information'>
+                                <MdEmail className='icon'/>
+                                <p>
+                                    kkghosh0099@gmail.com
+                                </p>
+                            </div>
 
-                    <a href='#' className='logo flex'>
-                        <h1 className='flex'>
-                        <FaPhoneVolume className='icon'/>+91 9007062180
-                        </h1>
-                    </a>
-                </div>
-            
-
-               
-                <div className='socials flex'>
-                    Connect
-                    <FaFacebookF className='icon'/>
-                    <FaTwitter className='icon'/>
-                    <FaInstagram className='icon'/>
-                </div>
-
-
-                <div class="contact-form">
-                    <form action="#" autocomplete="off">
-                        <h3 class="title">Contact us</h3>
-                        <div class="input-container">
-                        <input type="text" name="name" class="input" />
-                        <label for="">Username</label>
-                        <span>Username</span>
+                            <div className='information'>
+                                <FaPhoneVolume className='icon'/>
+                                <p>
+                                +91 9007062180
+                                </p>
+                            </div>
                         </div>
-                        <div class="input-container">
-                        <input type="email" name="email" class="input" />
-                        <label for="">Email</label>
-                        <span>Email</span>
+
+
+                        <div className='social-media'>
+                            <p>Connect with us :</p>
+                            <div className='social-icons'>
+                                <a href=''>
+                                <FaFacebookF className='icon'/>
+                                </a>
+
+                                <a href=''>
+                                <FaTwitter className='icon'/>
+                                </a>
+
+                                <a href=''>
+                                <FaInstagram className='icon'/>
+                                </a>
+                            </div> 
                         </div>
-                        <div class="input-container">
-                        <input type="tel" name="phone" class="input" />
-                        <label for="">Phone</label>
-                        <span>Phone</span>
-                        </div>
-                        <div class="input-container textarea">
-                        <textarea name="message" class="input"></textarea>
-                        <label for="">Message</label>
-                        <span>Message</span>
-                        </div>
-                        <input type="submit" value="Send" class="btn" />
-                    </form>
+                    </div>
+
+
+
+                    <div class="contact-form">
+                        <form action="#" autocomplete="off">
+                            <h3 class="title">Contact us</h3>
+                            <div class="input-container">
+                            <input type="text" name="name" class="input" />
+                            <label for="">Username</label>
+                            <span>Username</span>
+                            </div>
+                            <div class="input-container">
+                            <input type="email" name="email" class="input" />
+                            <label for="">Email</label>
+                            <span>Email</span>
+                            </div>
+                            <div class="input-container">
+                            <input type="tel" name="phone" class="input" />
+                            <label for="">Phone</label>
+                            <span>Phone</span>
+                            </div>
+                            <div class="input-container textarea">
+                            <textarea name="message" class="input"></textarea>
+                            <label for="">Message</label>
+                            <span>Message</span>
+                            </div>
+                            <input type="submit" value="Send" class="btn" />
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
