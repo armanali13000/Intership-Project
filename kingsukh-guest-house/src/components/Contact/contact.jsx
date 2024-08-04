@@ -10,7 +10,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
 
-const inputs = document.querySelectorAll(".input");
+// const inputs = document.querySelectorAll(".input");
 
 
 //  function focusFunc() {
