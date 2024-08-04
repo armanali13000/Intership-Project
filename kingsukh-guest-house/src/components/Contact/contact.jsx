@@ -17,7 +17,7 @@ const Contact = () => {
         <section className='contactContainer section'>
             <div className='container'>
                 <div className='form'>
-                    <div className='contact-form'>
+                    <div className='contact-info'>
                         <h3 className='title'>
                             Let's get in touch
                         </h3>
