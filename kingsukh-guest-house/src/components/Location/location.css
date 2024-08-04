@@ -19,6 +19,10 @@
 .location iframe {
   border: 2px solid #3aafa9;
   border-radius: 1%;
-  width: 1980px;
+  width: 1000px;
   height: 500px;
+}
+.location .secIntro h2 {
+  margin: 20px;
+  display: flex;
 }/*# sourceMappingURL=location.css.map */
