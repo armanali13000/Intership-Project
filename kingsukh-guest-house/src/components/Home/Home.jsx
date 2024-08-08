@@ -20,7 +20,7 @@ const Home = () => {
       <div className='secContainer container'>
         <div className='homeText'>
           <h1 data-aos='fade-up' className='title'>
-          Best Rates For Summer Guests!
+          Make Yourself At Home In Our Guest House.
           </h1>
           <p data-aos='fade-up' data-aos-duration='2500' className='subTitle'>
           Book a Room with Us This Month and Get Complimentary City Tours!

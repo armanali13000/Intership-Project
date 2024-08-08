@@ -49,7 +49,7 @@ const Navbar = () => {
 
 
             <li className='navItem active'>
-              <a href='../Home/Home.jsx' className='navLink'>Home</a>
+              <a href='' className='navLink'>Home</a>
             </li>
             <li className='navItem'>
               <a href='' className='navLink'>Product</a>
