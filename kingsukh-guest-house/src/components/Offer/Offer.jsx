@@ -25,25 +25,22 @@ const Offers = [
   {
     id:1,
     imgSrc: img8,
-    destTitle: 'Mechu picchu',
-    location: 'Peru',
-    price: '$7,500',
+    bedRoom: 'Cozy Haven Room',
+    price: '₹1000/night',
   },
 
   {
     id:2,
     imgSrc: img6,
-    destTitle: 'Guanjuao',
-    location: 'mexico',
-    price: '$5,564',
+    bedRoom: 'Spacious Serenity Suite',
+    price: '₹1500/night',
   },
 
   {
     id:3,
     imgSrc: img7,
-    destTitle: 'Angwar kot',
-    location: 'Combodia',
-    price: '$8,564',
+    bedRoom: 'luxury Haven Room',
+    price: '₹2000/night',
   },
 
 ]
@@ -70,9 +67,9 @@ const Offer = () => {
             <h2 className='secTitle'>
               Special Offer!!
             </h2>
+            <h2>OUR LIVING ROOM</h2>
             <p>
-            That’s correct!
-            We’re so determined to make your experience at our hotel a charm,
+            The Most Memorable Rest Time Starts Here.
             </p>
           </div>        
 
@@ -82,7 +79,7 @@ const Offer = () => {
           <div className='mainContent grid'>
 
           {
-            Offers.map(({id, imgSrc, destTitle, location, price})=>{
+            Offers.map(({id, imgSrc, bedRoom, price})=>{
               return(
 
                 <div data-aos='fade-up' data-aos-duration='3000' className='singleOffer'>
@@ -96,6 +93,7 @@ const Offer = () => {
 
                   <div className='offerBody'>
                     <div className='price flex'>
+                      <h4>{bedRoom}</h4>
                       <h4>
                         {price}
                       </h4>
@@ -123,10 +121,7 @@ const Offer = () => {
                       </div>
                     </div>
 
-                    <div className='location flex'>
-                    <FaLocationDot className='icon' />
-                      <small>{location}, Bangalore</small>
-                    </div>
+                   
 
                     <button className='btn flex'>
                       View Details

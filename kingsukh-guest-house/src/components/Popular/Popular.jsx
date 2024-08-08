@@ -29,8 +29,8 @@ const Data = [
   {
     id:2,
     imgSrc: img5,
-    destTitle: 'Guanajuato',
-    location: 'Maxico',
+    destTitle: 'Mithon Dam',
+    location: 'Mithon Dam',
     grade: 'CULTRUAL RELAX',
   },
 

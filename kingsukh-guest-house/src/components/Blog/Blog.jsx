@@ -19,29 +19,29 @@ const Posts = [
   {
     id:2,
     postImage: img,
-    title: 'The most common mistakes when managing personal finances',
-    desc: 'The ability to manage money competently is especially valuable quality in the conditions of financial crisis, when the purchasing power of the population is shrinking, inflation is rising, and currency exchange rates are completely unpredictable. Below are the common mistakes related to money affairs along with financial planning advice to help manage your own finances properly.',
+    title: '150+ Customers Milestone',
+    desc: 'We’ve proudly crossed the threshold of 150+ satisfied customers! This achievement highlights the growing trust in our brand and the effectiveness of our. We’re committed to continuing to deliver excellence as we expand our customer base.',
     },
   
     {
       id:2,
       postImage: img1,
-      title: 'Methods of the recruitment',
-      desc: 'Search of staff is not an easy task. According to the departmental heads of personnel management words, in order to find a personnel who will correspond to the relevant customer needs and requirements, it is necessary to carry out a great job.',
+      title: 'Expansion into New Markets',
+      desc: ' We’re excited to announce our expansion into new markets, broadening our reach and bringing our to a wider audience. This strategic move represents our commitment to growth and innovation, as we continue to adapt to meet the needs of our customers globally.',
     },
   
     {
       id:3,
       postImage: img2,
-      title: 'Overalls with logo as a method of advertising',
-      desc: 'Overalls bearing the company logo are related to economy and practicality. A preference of corporate style involves a significant increase of costs for development of design solutions, customized tailoring, selection of necessary materials and so on.',
+      title: 'Achievement of 5-Star Customer Ratings',
+      desc: 'We’re thrilled to maintain an average rating of 5 stars across [platforms/reviews]. This reflects our dedication to customer satisfaction and our commitment to quality. We’ll keep striving to deliver top-notch experiences for all our customers.',
     },
   
     {
       id:4,
       postImage: img3,
-      title: 'The main objectives of the marketer',
-      desc: 'The modern market is absolutely unpredictable. And yet it lives according to strict laws. The marketers need to be known to achieve maximum results in their business - that is the main task of the marketer.',
+      title: 'Completion of 100+ Bookings',
+      desc: 'We have successfully completed over 100 bookings, marking a significant milestone in our growth journey. Each booking represents a trusted relationship with our clients, and we’re excited to build on this momentum to serve even more customers in the future.',
     }
 ]
 

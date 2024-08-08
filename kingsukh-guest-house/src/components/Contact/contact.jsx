@@ -1,5 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react'
 import './contact.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 //importing icon
 import { FaMapMarkedAlt } from "react-icons/fa";
@@ -55,10 +57,19 @@ import { FaInstagram } from "react-icons/fa";
 
 
 const Contact = () => {
+
+    useEffect(()=>{
+
+        Aos.init({duration: 2000})
+    
+      }, [])
+    
+
+    
     return (
         
-        <section className='contactContainer section'>
-            <div className='container'>
+        <section className='contactContainer section' data-aos='zoom-in' data-aos-duration='2000'>
+            <div className='container' >
                 <div className='form'>
                     <div className='contact-info'>
                         <h3 className='title'>

@@ -27,8 +27,8 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='secContainer container grid'>
-        <div data-aos='fade-up' data-aos-duration='2000' className='logoDiv'>
-          <div data-aos='fade-up' data-aos-duration='2000' className='footerLogo'>
+        <div data-aos='zoom-in' data-aos-duration='2000' className='logoDiv'>
+          <div data-aos='zoom-in' data-aos-duration='2000' className='footerLogo'>
               <a href='#' className='logo flex'>
                 <h1 className='flex'>
                   <GiSpookyHouse className='icon' />
@@ -45,7 +45,7 @@ const Footer = () => {
            
         </div>
 
-        <div data-aos='fade-up' data-aos-duration='3000' className='footerLinks'>
+        <div data-aos='zoom-in' data-aos-duration='3000' className='footerLinks'>
           <span className='linkTitle'>
             Information
           </span>
@@ -63,7 +63,7 @@ const Footer = () => {
           </li>
         </div>
 
-        <div data-aos='fade-up' data-aos-duration='4000' className='footerLinks'>
+        <div data-aos='zoom-in' data-aos-duration='4000' className='footerLinks'>
           <span className='linkTitle'>
             Connect with Us
           </span>
@@ -81,7 +81,7 @@ const Footer = () => {
           </li>
         </div>
 
-        <div data-aos='fade-up' data-aos-duration='5000' className='footerLinks'>
+        <div data-aos='zoom-in' data-aos-duration='5000' className='footerLinks'>
           <span className='linkTitle'>Contact Us</span>
           <span className='phone'>+913487569851</span>
           <span className='email'>kingkush@gmail.com</span>
