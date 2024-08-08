@@ -7,9 +7,9 @@ import { GiSpookyHouse } from "react-icons/gi";
 
 //importing Images
 import img2 from '../../Assets/baranti.webp'
-import img5 from '../../Assets/baranti.webp'
-import img7 from '../../Assets/baranti.webp'
-import img9 from '../../Assets/baranti.webp'
+import img5 from '../../Assets/mithonDam.webp'
+import img7 from '../../Assets/ayodhya.webp'
+import img9 from '../../Assets/palash.webp'
 
 //importing AOS(Animate on Scroll)
 import Aos from 'aos'
@@ -21,15 +21,15 @@ const Data = [
   {
   id:1,
   imgSrc: img2,
-  destTitle: 'meccu piku',
-  location: 'peru',
+  destTitle: 'baranti Image',
+  location: 'Baranti',
   grade: 'CULTRUAL RELAX',
   },
 
   {
     id:2,
     imgSrc: img5,
-    destTitle: 'Mithon Dam',
+    destTitle: 'Mithon Dam Image',
     location: 'Mithon Dam',
     grade: 'CULTRUAL RELAX',
   },
@@ -37,16 +37,16 @@ const Data = [
   {
     id:3,
     imgSrc: img7,
-    destTitle: 'Angkor wat',
-    location: 'Cambodia',
+    destTitle: 'Ayodhya Image',
+    location: 'Ayodhya',
     grade: 'CULTRUAL RELAX',
   },
 
   {
     id:4,
     imgSrc: img9,
-    destTitle: 'Taj Mahal',
-    location: 'India',
+    destTitle: 'Palash Image',
+    location: 'Palash',
     grade: 'CULTRUAL RELAX',
   }
 ] 

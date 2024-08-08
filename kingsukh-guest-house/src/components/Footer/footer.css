@@ -69,6 +69,11 @@
   font-style: 13px;
   font-weight: 500;
 }
+.footer .copyright {
+  text-align: center;
+  padding: 2rem;
+  color: var(--blackColor);
+}
 
 @media screen and (min-width: 448px) {
   .secContainer {

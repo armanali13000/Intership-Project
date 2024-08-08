@@ -86,7 +86,10 @@ const Footer = () => {
           <span className='phone'>+913487569851</span>
           <span className='email'>kingkush@gmail.com</span>
         </div>
-      </div>
+      </div> 
+      <div className='copyright' data-aos='zoom-in' data-aos-duration='5500'>
+          <h3>Copyright © 2024 Kingsukh Guest House. All rights reserved.</h3>
+        </div>
     </div>
   )
 }

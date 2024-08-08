@@ -30,7 +30,7 @@
 }
 .navBarSection .header .logoDiv .logo .icon {
   color: var(--PrimaryColor);
-  font-size: 25px;
+  font-size: 35px;
   margin-right: 10px;
 }
 @media screen and (max-width: 768px) {
