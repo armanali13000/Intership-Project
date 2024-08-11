@@ -154,7 +154,7 @@
   padding: 2.3rem 2.2rem;
   position: relative;
 }
-.contactContainer .container .form .contact-info .title {
+.contactContainer .container .form .contact-info b .title {
   color: #1abc9c;
 }
 .contactContainer .container .form .contact-info .text {
