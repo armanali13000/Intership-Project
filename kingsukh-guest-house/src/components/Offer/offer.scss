@@ -109,8 +109,8 @@
                             gap: .5rem;
                         }
                     }
-
-                    .btn
+                    a{
+                        .btn
                     {
                         margin-top: 1rem;
                         width: 100%;
@@ -127,6 +127,8 @@
                             font-size: 15px;
                         }
                     }
+                    }
+                    
                 }
 
                 &:hover

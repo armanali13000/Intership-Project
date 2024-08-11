@@ -81,7 +81,7 @@
   background: var(--greyBg);
   gap: 0.5rem;
 }
-.offer .secContainer .mainContent .singleOffer .offerBody .btn {
+.offer .secContainer .mainContent .singleOffer .offerBody a .btn {
   margin-top: 1rem;
   width: 100%;
   text-align: center;
@@ -91,7 +91,7 @@
   font-weight: 600;
   gap: 0.5rem;
 }
-.offer .secContainer .mainContent .singleOffer .offerBody .btn .icon {
+.offer .secContainer .mainContent .singleOffer .offerBody a .btn .icon {
   color: var(--whiteColor);
   font-size: 15px;
 }
