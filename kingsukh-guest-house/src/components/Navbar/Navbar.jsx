@@ -3,6 +3,9 @@ import './navbar.css'
 import { GiSpookyHouse } from "react-icons/gi";
 import { IoCloseCircle } from "react-icons/io5";
 import { TbGridDots } from "react-icons/tb";
+import { BrowserRouter } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link"; 
+
 
 const Navbar = () => {
 
@@ -35,11 +38,13 @@ const Navbar = () => {
 
 
   return (
+
+    <BrowserRouter>
     
     <section className='navBarSection'>
       <div className={transparent}>
         <div className='logoDiv'>
-          <a href='#' className='logo'>
+          <a href='#home' className='logo'>
             <h1 className='flex'><GiSpookyHouse className='icon' />Kingsukh Guest House</h1>
           </a>
         </div>
@@ -49,19 +54,19 @@ const Navbar = () => {
 
 
             <li className='navItem active'>
-              <a href='' className='navLink'>Home</a>
+              <a href='#home'  className='navLink'>Home</a>
             </li>
             <li className='navItem'>
-              <a href='' className='navLink'>Product</a>
+              <a href='#about'  className='navLink'>About</a>
             </li>
             <li className='navItem'>
-              <a href='#' className='navLink'>Resources</a>
+              <a href='#offer' className='navLink'>Rooms</a>
             </li>
             <li className='navItem'>
-              <a href='#' className='navLink'>Contact</a>
+              <a href='#blog' className='navLink'>Blog</a>
             </li>
             <li className='navItem'>
-              <a href='#' className='navLink'>Blog</a>
+              <a href='#contact' className='navLink'>Contact</a>
             </li>
           </ul>
 
@@ -77,6 +82,8 @@ const Navbar = () => {
 
       </div>
     </section>
+
+    </BrowserRouter>
 
   )
 }

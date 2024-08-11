@@ -12,6 +12,8 @@ import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
+
+      
     <>
       <Navbar/>
       <Home/>
@@ -23,6 +25,7 @@ const App = () => {
       <Location />
       <Footer/>
     </>
+    
   )
 }
 

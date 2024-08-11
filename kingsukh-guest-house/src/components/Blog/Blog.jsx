@@ -56,7 +56,7 @@ const Blog = () => {
 
 
   return (
-    <section className='blog container section'>
+    <section className='blog container section' id='blog'>
       <div className='secContainer'>
 
         <div className='secIntro'>

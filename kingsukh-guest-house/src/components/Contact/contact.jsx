@@ -68,7 +68,7 @@ const Contact = () => {
     
     return (
         
-        <section className='contactContainer section' data-aos='zoom-in' data-aos-duration='2000'>
+        <section className='contactContainer section' data-aos='zoom-in' data-aos-duration='2000' id='contact'>
             <div className='container' >
                 <div className='form'>
                     <div className='contact-info'>

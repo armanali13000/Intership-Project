@@ -27,9 +27,9 @@ const About = () => {
 
   return (
     
-      <section className='about section'>
+      <section className='about section' id='about'>
         <div className='secContainer'>
-          <h2 className='title'>
+          <h2 className='title' data-aos='zoom-in' data-aos-duration='2000'>
             About Us!
           </h2>
 

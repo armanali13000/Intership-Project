@@ -16,7 +16,7 @@ const Home = () => {
 
   return (
 
-    <section className='home'>
+    <section className='home' id='home'>
       <div className='secContainer container'>
         <div className='homeText'>
           <h1 data-aos='fade-up' className='title'>
@@ -27,12 +27,12 @@ const Home = () => {
           </p>    
 
           <button className='btn' data-aos='fade-up' data-aos-duration='3000'>
-            <a href='#'>Explore Now</a>
+            <a href='#popular' id='home'>Explore Now</a>
           </button>
 
         </div>  
 
-        <div className='homeCard grid'>
+        {/* <div className='homeCard grid'>
 
           <div data-aos='fade-right' data-aos-duration='2000' className='locationDiv'>
             <label htmlFor='location'>Location</label>
@@ -50,7 +50,7 @@ const Home = () => {
           </div>
           <button data-aos='fade-left' data-aos-duration='2000' className='btn'>Search</button>
 
-        </div>  
+        </div>   */}
       </div>
     </section>
 

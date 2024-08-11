@@ -29,7 +29,7 @@ const Footer = () => {
       <div className='secContainer container grid'>
         <div data-aos='zoom-in' data-aos-duration='2000' className='logoDiv'>
           <div data-aos='zoom-in' data-aos-duration='2000' className='footerLogo'>
-              <a href='#' className='logo flex'>
+              <a href='#home' className='logo flex'>
                 <h1 className='flex'>
                   <GiSpookyHouse className='icon' />
                   Kingsukh Guest House 
@@ -38,9 +38,9 @@ const Footer = () => {
           </div>
 
           <div className='socials flex'>
-          <FaFacebookF className='icon'/>
-          <FaTwitter className='icon'/>
-          <FaInstagram className='icon'/>
+          <a href='#home'><FaFacebookF className='icon'/></a>
+          <a href='#home'><FaTwitter className='icon'/></a>
+          <a href='#home'><FaInstagram className='icon'/></a>
           </div>
            
         </div>
@@ -50,34 +50,34 @@ const Footer = () => {
             Information
           </span>
           <li>
-            <a href='#'>Home</a>
+            <a href='#home'>Home</a>
           </li>
           <li>
-            <a href='#'>Explore</a>
+            <a href='#popular'>Browse Destinations</a>
           </li>
           <li>
-            <a href='#'>Travel</a>
+            <a href='#offer'>Special Offers & Packages</a>
           </li>
           <li>
-            <a href='#'>Blog</a>
+            <a href='#contact'>Customer Reviews & Ratings</a>
           </li>
         </div>
 
         <div data-aos='zoom-in' data-aos-duration='4000' className='footerLinks'>
           <span className='linkTitle'>
-            Connect with Us
+            Our Services
           </span>
           <li>
-            <a href='#'>Destination</a>
+            <a href='#popular'>Concierge Assistance</a>
           </li>
           <li>
-            <a href='#'>Support</a>
+            <a href='#contact'>Flexible Booking Options</a>
           </li>
           <li>
-            <a href='#'>Travel & Condition</a>
+            <a href='#about'>Airport Transfers</a>
           </li>
           <li>
-            <a href='#'>Privacy</a>
+            <a href='#home'>Wellness & Recreation</a>
           </li>
         </div>
 

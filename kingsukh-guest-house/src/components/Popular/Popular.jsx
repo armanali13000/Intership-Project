@@ -64,7 +64,7 @@ const Popular = () => {
 
   return (
     
-    <section className='popular section container'> 
+    <section className='popular section container' id='popular'> 
 
       <div className='secContainer'>
         <div className='secHeader flex'>
