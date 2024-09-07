@@ -13,7 +13,7 @@
 
 .popular
 {
-    padding-top: 15rem; 
+    padding-top: 10rem; 
 
     .secContainer
     {
@@ -219,11 +219,21 @@
 
 // Media Queries----------
 
+@media screen and (min-width: 380px)
+{
+    .popular
+    {
+        padding-top: 5rem;
+        
+    }
+}
+
+
 @media screen and (min-width: 480px)
 {
     .popular
     {
-        padding-top: 10rem;
+        padding-top: 6rem;
         
     }
 }
@@ -233,6 +243,7 @@
 {
     .popular
     {
+        padding-top: 7rem;
         .secContainer
         {
             .secHeader
@@ -269,7 +280,7 @@
 {
     .popular
     {
-        padding-top: 10rem;
+        padding-top: 5rem;
 
         .secContainer
         {

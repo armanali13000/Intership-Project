@@ -123,7 +123,7 @@ const Offer = () => {
 
                    
                     <a href='https://api.whatsapp.com/send?phone=919007062180'>
-                    <button href='https://api.whatsapp.com/send?phone=919007062180' className='btn flex'>
+                    <button className='btn flex'>
                       View Details
                     <FaArrowRight className='icon'/>
                     </button>
